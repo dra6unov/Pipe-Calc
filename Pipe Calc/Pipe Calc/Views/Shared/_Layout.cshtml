@@ -21,6 +21,10 @@
                 @Html.ActionLink("Имя приложения", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Калькулятор 1", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Калькулятор 2", "Index", "Another")</li>
+                </ul>
             </div>
         </div>
     </div>

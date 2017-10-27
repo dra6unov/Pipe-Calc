@@ -12,11 +12,6 @@ namespace Pipe_Calc.Controllers
         {
             return View();
         }
-
-        [HttpPost]
-        public JsonResult update()
-        {
-            return Json(new { Success = true, Message = "test" });
-        }
+ 
     }
 }

@@ -10,18 +10,46 @@
     </div>
     <br />
     <form>
+         <div>
+            <label>Выберите значение коэффициента надёжности по материалу труб(Ymu</label>
+            <select class="selectpicker" id="DDL1">
+                <option>1.34</option>
+                <option>1.40</option>
+                <option>1.47</option>
+                <option>1.55</option>
+            </select>
+        </div>
+        <div>
+            <label>Выберите категорию участка трубопровода(Yd)</label>
+            <select class="selectpicker" id="DDL2">
+                <option>0.921</option>
+                <option>0.767</option>
+                <option>0.637</option>
+            </select>
+        </div>
         <div class="form-group">
-            <label for="value_1">Первая форма</label>
+            <label for="value_1">Введите нормативный предел прочности (Sigmau),МПа</label>
             <input type="text" class="form-control" id="value_1" aria-describedby="emailHelp" placeholder="введите текст">
         </div>
         <div class="form-group">
-            <label for="value_2">Вторая форма</label>
+            <label for="value_2">Введите нормативный предел текучести (Sigmay),МПа</label>
             <input type="text" class="form-control" id="value_2" placeholder="введите текст">
         </div>
         <div class="form-group">
-            <label for="value_3">Третья форма</label>
+            <label for="value_3">Введите коэффициент надёжности по нагрузке(Yfp)</label>
             <input type="text" class="form-control" id="value_3" placeholder="введите текст">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="form-group">
+            <label for="value_4">Введите рабочее давление(p)</label>
+            <input type="text" class="form-control" id="value_4" placeholder="введите текст">
+        </div>
+        <div class="form-group">
+            <label for="value_5">Введите наружный диаметр трубы, мм(D)</label>
+            <input type="text" class="form-control" id="value_5" placeholder="введите текст">
+        </div>
+
+        <button type="submit" class="btn btn-primary" id="btn1">Submit</button>
+        
+
     </form>
 </div>
