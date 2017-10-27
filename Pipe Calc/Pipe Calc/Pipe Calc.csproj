@@ -51,7 +51,7 @@
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Pipe">
-      <HintPath>..\..\..\..\Pipe\Pipe\bin\Debug\Pipe.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\Pipe.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
